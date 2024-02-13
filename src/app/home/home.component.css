@@ -1,0 +1,44 @@
+section
+{
+    height: 100vh;
+    color: white;
+    background-color: #1ABC9C ;
+}
+.img{
+    
+}
+.img img
+{
+background-color:#2C3E50;
+}
+
+.container .star
+{
+    width: fit-content;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.container .star::after 
+{
+content: "";
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+left: 25px;
+background-color: white;
+width: 70px;
+height: 4px;
+}
+.container .star::before 
+{
+content: "" ;
+position: absolute ;
+top: 50%;
+transform: translateY(-50%);
+right: 25px;
+background-color: white;
+width: 70px;
+height: 4px;
+}

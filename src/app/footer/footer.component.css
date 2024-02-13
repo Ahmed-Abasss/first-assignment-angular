@@ -1,0 +1,41 @@
+footer
+{
+    background-color: #2C3E50;
+    padding-inline: 40px;
+    padding-block: 80px;
+    position:relative;
+    top: 100%;
+    left: 0;
+    width: 100%;
+}
+
+
+footer .container ul li{
+    border:1px solid rgba(255, 255, 255, 0.507) ;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-inline: 4px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright
+{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #18212b;
+    padding-block: 15px;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.377);
+}
+
+@media screen and (max-width:600px) {
+
+    footer .row .col-md-4
+    {
+        margin-block: 50px;
+    }
+}
+

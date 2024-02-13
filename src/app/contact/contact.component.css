@@ -1,0 +1,66 @@
+section{
+    height: 100vh;
+}
+
+.container .star
+{
+    width: fit-content;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+.container .star::after 
+{
+content: "";
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+left: 25px;
+background-color:#2C3E50;
+width: 70px;
+height: 4px;
+}
+.container .star::before 
+{
+content: "" ;
+position: absolute ;
+top: 50%;
+transform: translateY(-50%);
+right: 25px;
+background-color: #2C3E50;
+width: 70px;
+height: 4px;
+}
+*{
+    margin-top: 5px;
+}
+
+input
+{
+    border: none;
+    border-bottom: 1px solid rgb(177, 174, 174);
+    border-radius: 11px
+}
+
+.button{
+    position: relative;
+    left: 10px;    
+    font-size: 14px;
+    width: fit-content;
+    color: white;
+    background-color: #1ABC9C;
+    border: none;
+    padding-block: 9px ;
+    border-radius:5px ;
+}
+
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-bottom: 1px solid rgb(177, 174, 174);
+    outline: 0;
+    box-shadow: none;
+}   

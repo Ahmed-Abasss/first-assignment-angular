@@ -1,0 +1,24 @@
+nav{
+    transition: all 1s ;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #2C3E50; ;
+    color: white !important;
+}
+nav ul li 
+{
+    margin-inline: 25px;
+}
+.nav-link , .navbar-brand {
+    color: white;
+}
+
+.navbar-brand{
+    font-size: 25px ;
+}
+
+
+.active-link{
+    background-color: #1ABC9C;
+    border-radius: 5px;
+}
